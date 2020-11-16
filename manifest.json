@@ -47,7 +47,8 @@
       "type": "keyword",
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
-      "description": "Shut down system"
+      "description": "Shut down system",
+      "icon": "shutdown.png"
     }
   ]
 }
