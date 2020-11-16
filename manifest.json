@@ -15,6 +15,13 @@
       "description": "Lock your screen"
     },
     {
+      "id": "logout",
+      "type": "keyword",
+      "name": "Logout",
+      "default_value": "Logout",
+      "description": "Logout current user"
+    },
+    {
       "id": "restart",
       "type": "keyword",
       "name": "Reboot / Restart",
@@ -27,6 +34,13 @@
       "name": "Suspend / Sleep",
       "default_value": "Suspend / Sleep",
       "description": "Put the system to sleep"
+    },
+    {
+      "id": "hibernate",
+      "type": "keyword",
+      "name": "Hibernate",
+      "default_value": "Hibernate",
+      "description": "Put the system to hibernate"
     },
     {
       "id": "shutdown",

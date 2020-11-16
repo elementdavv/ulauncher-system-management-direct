@@ -27,11 +27,17 @@ class KeywordQueryEventListener(EventListener):
   def on_match(self, id):
     if id == 'lock-screen':
       subprocess.Popen(['loginctl', 'lock-session'])
+    if id == 'logout':
+      subprocess.Popen(['gnome-session-quit', '--logout'])
     if id == 'suspend':
       subprocess.Popen(['systemctl', 'suspend', '-i'])
+    if id == 'hibernate':
+      subprocess.Popen(['systemctl', 'hibernate', '-i'])
     if id == 'shutdown':
+      # gnome-session-quit --power-off
       subprocess.Popen(['systemctl', 'poweroff', '-i'])
     if id == 'restart':
+      # gnome-session-quit --reboot
       subprocess.Popen(['systemctl', 'reboot', '-i'])
 
 SystemManagementDirect().run()
