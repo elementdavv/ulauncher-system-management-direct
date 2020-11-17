@@ -12,7 +12,8 @@
       "type": "keyword",
       "name": "Lock Screen",
       "default_value": "Lock Screen",
-      "description": "Lock your screen"
+      "description": "Lock your screen",
+      "icon": "lock.png"
     },
     {
       "id": "logout",
