@@ -13,42 +13,47 @@
       "name": "Lock Screen",
       "default_value": "Lock Screen",
       "description": "Lock your screen",
-      "icon": "lock.png"
+      "icon": "system-lock-screen"
     },
     {
       "id": "logout",
       "type": "keyword",
       "name": "Logout",
       "default_value": "Logout",
-      "description": "Logout current user"
+      "description": "Logout current user",
+      "icon": "system-log-out"
     },
     {
       "id": "restart",
       "type": "keyword",
       "name": "Reboot / Restart",
       "default_value": "Reboot / Restart",
-      "description": "Restart the system"
+      "description": "Restart the system",
+      "icon": "system-reboot"
     },
     {
       "id": "suspend",
       "type": "keyword",
       "name": "Suspend / Sleep",
       "default_value": "Suspend / Sleep",
-      "description": "Put the system to sleep"
+      "description": "Put the system to sleep",
+      "icon": "system-suspend"
     },
     {
       "id": "hibernate",
       "type": "keyword",
       "name": "Hibernate",
       "default_value": "Hibernate",
-      "description": "Put the system to hibernate"
+      "description": "Put the system to hibernate",
+      "icon": "system-suspend-hibernate"
     },
     {
       "id": "shutdown",
       "type": "keyword",
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
-      "description": "Shut down system"
+      "description": "Shut down system",
+      "icon": "system-shutdown"
     }
   ]
 }
