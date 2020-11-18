@@ -10,50 +10,50 @@
     {
       "id": "lock-screen",
       "type": "keyword",
+      "icon": "system-lock-screen",
       "name": "Lock Screen",
       "default_value": "Lock Screen",
-      "description": "Lock your screen",
-      "icon": "system-lock-screen"
+      "description": "Lock your screen"
     },
     {
       "id": "logout",
       "type": "keyword",
+      "icon": "system-log-out",
       "name": "Logout",
       "default_value": "Logout",
-      "description": "Logout current user",
-      "icon": "system-log-out"
+      "description": "Logout current user"
     },
     {
       "id": "restart",
       "type": "keyword",
+      "icon": "system-reboot",
       "name": "Reboot / Restart",
       "default_value": "Reboot / Restart",
-      "description": "Restart the system",
-      "icon": "system-reboot"
+      "description": "Restart the system"
     },
     {
       "id": "suspend",
       "type": "keyword",
+      "icon": "system-suspend",
       "name": "Suspend / Sleep",
       "default_value": "Suspend / Sleep",
-      "description": "Put the system to sleep",
-      "icon": "system-suspend"
+      "description": "Put the system to sleep"
     },
     {
       "id": "hibernate",
       "type": "keyword",
+      "icon": "system-suspend-hibernate",
       "name": "Hibernate",
       "default_value": "Hibernate",
-      "description": "Put the system to hibernate",
-      "icon": "system-suspend-hibernate"
+      "description": "Put the system to hibernate"
     },
     {
       "id": "shutdown",
       "type": "keyword",
+      "icon": "system-shutdown",
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
-      "description": "Shut down system",
-      "icon": "system-shutdown"
+      "description": "Shut down system"
     }
   ]
 }

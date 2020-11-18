@@ -24,6 +24,10 @@ class KeywordQueryEventListener(EventListener):
         self.on_match(id)
         return HideWindowAction()
 
+  '''
+  gnome-session-quit --power-off
+  gnome-session-quit --reboot
+  '''
   def on_match(self, id):
     if id == 'lock-screen':
       subprocess.Popen(['loginctl', 'lock-session'])
@@ -34,10 +38,8 @@ class KeywordQueryEventListener(EventListener):
     if id == 'hibernate':
       subprocess.Popen(['systemctl', 'hibernate', '-i'])
     if id == 'shutdown':
-      # gnome-session-quit --power-off
       subprocess.Popen(['systemctl', 'poweroff', '-i'])
     if id == 'restart':
-      # gnome-session-quit --reboot
       subprocess.Popen(['systemctl', 'reboot', '-i'])
 
 SystemManagementDirect().run()
