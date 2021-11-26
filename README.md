@@ -7,6 +7,9 @@
 
 This extension is using experimental techniques to make Ulauncher keywords look and behave like apps. This comes with a couple of minor caveats but as of writing this, it works fine. These techniques were lifted from https://github.com/friday/ulauncher-gnome-settings
 
+## Enhancement
+For every system action, a new field for icon is provided.  This must be used with my fork for ulauncher.
+
 ## How it works (primarily for extension developers)
 
 This explanation was lifted directly from https://github.com/friday/ulauncher-gnome-settings and modified to apply to this extension
